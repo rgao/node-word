@@ -19,7 +19,7 @@ function generateWord() {
         var line = Math.floor(Math.random() * data.length);
         randomWord = data[line];
 
-        console.log(randomWord)
+        // console.log(randomWord)
         var initialDisplay = "";
         for (q in randomWord) {
             initialDisplay += "_ ";
